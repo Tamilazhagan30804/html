@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style form.css">
+</head>
+<body>
+    <table>
+        <h1>HTML registration form with verification</h1>
+            <form name="registration" class="registration-form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name">
+            <br>
+            <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Your email">
+            <br>
+            <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password">
+            <br>
+            <br>
+                <label for="phonenumber">Phonenumber</label>
+                <br>
+                <input type="text" name="phonenumber" id="phonenumber">
+            <br>
+            <br>
+                <label for="gender">Gender</label>
+                <br>
+                 Male:<input type="radio" name="gender" value="male">
+                 Female:<input type="radio" name="gender" value="female">
+                 Other:<input type="radio" name="gender" value="other">
+            <br>
+            <br>
+                <label for="language">Language</label>
+                    <select name="language" id="language">
+                        <option value="">Select language</option>
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Arabic">Arabic</option>
+                        <option value="Russian">Russian</option>
+                    </select>
+                <br>
+                <br>
+                <label form="zipcode">Zip code</label>
+                <input type="text" name="zipcode" id="zipcode">
+                <br>
+                <br>
+                 <label for="about">About</label>
+                 <textarea name="about" id="about" placeholder="write about yourself..."></textarea>
+                <br>
+                <br>
+                 <input type="submit" class="submit" value="register"/>
+                <br>
+                <br>
+            </form>
+    </table>
+</body>
+</html>
